@@ -84,6 +84,7 @@ namespace GenieClient.Mapper
             // _ToolStripMain
             // 
             this._ToolStripMain.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden;
+            this._ToolStripMain.ImageScalingSize = new System.Drawing.Size(24, 24);
             this._ToolStripMain.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this._ToolStripButtonClear,
             this._ToolStripButtonLoad,
@@ -112,7 +113,8 @@ namespace GenieClient.Mapper
             this._ToolStripLabelZ});
             this._ToolStripMain.Location = new System.Drawing.Point(0, 0);
             this._ToolStripMain.Name = "_ToolStripMain";
-            this._ToolStripMain.Size = new System.Drawing.Size(1299, 25);
+            this._ToolStripMain.Padding = new System.Windows.Forms.Padding(0, 0, 3, 0);
+            this._ToolStripMain.Size = new System.Drawing.Size(1948, 33);
             this._ToolStripMain.TabIndex = 5;
             this._ToolStripMain.KeyUp += new System.Windows.Forms.KeyEventHandler(this.GraphForm_KeyUp);
             // 
@@ -122,7 +124,7 @@ namespace GenieClient.Mapper
             this._ToolStripButtonClear.Image = ((System.Drawing.Image)(resources.GetObject("_ToolStripButtonClear.Image")));
             this._ToolStripButtonClear.ImageTransparentColor = System.Drawing.Color.Magenta;
             this._ToolStripButtonClear.Name = "_ToolStripButtonClear";
-            this._ToolStripButtonClear.Size = new System.Drawing.Size(23, 22);
+            this._ToolStripButtonClear.Size = new System.Drawing.Size(34, 28);
             this._ToolStripButtonClear.Text = "New";
             this._ToolStripButtonClear.Click += new System.EventHandler(this.ToolStripButtonClear_Click);
             // 
@@ -132,7 +134,7 @@ namespace GenieClient.Mapper
             this._ToolStripButtonLoad.Image = ((System.Drawing.Image)(resources.GetObject("_ToolStripButtonLoad.Image")));
             this._ToolStripButtonLoad.ImageTransparentColor = System.Drawing.Color.Magenta;
             this._ToolStripButtonLoad.Name = "_ToolStripButtonLoad";
-            this._ToolStripButtonLoad.Size = new System.Drawing.Size(23, 22);
+            this._ToolStripButtonLoad.Size = new System.Drawing.Size(34, 28);
             this._ToolStripButtonLoad.Text = "Load";
             this._ToolStripButtonLoad.Click += new System.EventHandler(this.ToolStripButtonLoad_Click);
             // 
@@ -142,14 +144,14 @@ namespace GenieClient.Mapper
             this._ToolStripButtonSave.Image = ((System.Drawing.Image)(resources.GetObject("_ToolStripButtonSave.Image")));
             this._ToolStripButtonSave.ImageTransparentColor = System.Drawing.Color.Magenta;
             this._ToolStripButtonSave.Name = "_ToolStripButtonSave";
-            this._ToolStripButtonSave.Size = new System.Drawing.Size(23, 22);
+            this._ToolStripButtonSave.Size = new System.Drawing.Size(34, 28);
             this._ToolStripButtonSave.Text = "Save";
             this._ToolStripButtonSave.Click += new System.EventHandler(this.ToolStripButtonSave_Click);
             // 
             // _ToolStripSeparator1
             // 
             this._ToolStripSeparator1.Name = "_ToolStripSeparator1";
-            this._ToolStripSeparator1.Size = new System.Drawing.Size(6, 25);
+            this._ToolStripSeparator1.Size = new System.Drawing.Size(6, 33);
             // 
             // _ToolStripButtonWalk
             // 
@@ -160,14 +162,14 @@ namespace GenieClient.Mapper
             this._ToolStripButtonWalk.Image = ((System.Drawing.Image)(resources.GetObject("_ToolStripButtonWalk.Image")));
             this._ToolStripButtonWalk.ImageTransparentColor = System.Drawing.Color.Magenta;
             this._ToolStripButtonWalk.Name = "_ToolStripButtonWalk";
-            this._ToolStripButtonWalk.Size = new System.Drawing.Size(23, 22);
+            this._ToolStripButtonWalk.Size = new System.Drawing.Size(34, 28);
             this._ToolStripButtonWalk.Text = "Auto Walk Path";
             this._ToolStripButtonWalk.Click += new System.EventHandler(this.ToolStripButtonWalk_Click);
             // 
             // _ToolStripSeparator3
             // 
             this._ToolStripSeparator3.Name = "_ToolStripSeparator3";
-            this._ToolStripSeparator3.Size = new System.Drawing.Size(6, 25);
+            this._ToolStripSeparator3.Size = new System.Drawing.Size(6, 33);
             // 
             // _ToolStripButtonSnap
             // 
@@ -176,7 +178,7 @@ namespace GenieClient.Mapper
             this._ToolStripButtonSnap.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this._ToolStripButtonSnap.ImageTransparentColor = System.Drawing.Color.Magenta;
             this._ToolStripButtonSnap.Name = "_ToolStripButtonSnap";
-            this._ToolStripButtonSnap.Size = new System.Drawing.Size(23, 22);
+            this._ToolStripButtonSnap.Size = new System.Drawing.Size(34, 28);
             this._ToolStripButtonSnap.Text = "Snap To Grid";
             this._ToolStripButtonSnap.Click += new System.EventHandler(this.ToolStripButtonSnap_Click);
             // 
@@ -186,14 +188,14 @@ namespace GenieClient.Mapper
             this._ToolStripButtonProperties.Image = ((System.Drawing.Image)(resources.GetObject("_ToolStripButtonProperties.Image")));
             this._ToolStripButtonProperties.ImageTransparentColor = System.Drawing.Color.Magenta;
             this._ToolStripButtonProperties.Name = "_ToolStripButtonProperties";
-            this._ToolStripButtonProperties.Size = new System.Drawing.Size(23, 22);
+            this._ToolStripButtonProperties.Size = new System.Drawing.Size(34, 28);
             this._ToolStripButtonProperties.Text = "Edit Panel";
             this._ToolStripButtonProperties.Click += new System.EventHandler(this.ToolStripButtonProperties_Click);
             // 
             // _ToolStripSeparator4
             // 
             this._ToolStripSeparator4.Name = "_ToolStripSeparator4";
-            this._ToolStripSeparator4.Size = new System.Drawing.Size(6, 25);
+            this._ToolStripSeparator4.Size = new System.Drawing.Size(6, 33);
             // 
             // _ToolStripButtonRecord
             // 
@@ -201,7 +203,7 @@ namespace GenieClient.Mapper
             this._ToolStripButtonRecord.Image = ((System.Drawing.Image)(resources.GetObject("_ToolStripButtonRecord.Image")));
             this._ToolStripButtonRecord.ImageTransparentColor = System.Drawing.Color.Magenta;
             this._ToolStripButtonRecord.Name = "_ToolStripButtonRecord";
-            this._ToolStripButtonRecord.Size = new System.Drawing.Size(23, 22);
+            this._ToolStripButtonRecord.Size = new System.Drawing.Size(34, 28);
             this._ToolStripButtonRecord.Text = "Record Mode";
             this._ToolStripButtonRecord.Click += new System.EventHandler(this.ToolStripButtonRecord_Click);
             // 
@@ -212,7 +214,7 @@ namespace GenieClient.Mapper
             this._ToolStripButtonLockPositions.Image = ((System.Drawing.Image)(resources.GetObject("_ToolStripButtonLockPositions.Image")));
             this._ToolStripButtonLockPositions.ImageTransparentColor = System.Drawing.Color.Magenta;
             this._ToolStripButtonLockPositions.Name = "_ToolStripButtonLockPositions";
-            this._ToolStripButtonLockPositions.Size = new System.Drawing.Size(23, 22);
+            this._ToolStripButtonLockPositions.Size = new System.Drawing.Size(34, 28);
             this._ToolStripButtonLockPositions.Text = "Lock Positions";
             this._ToolStripButtonLockPositions.Click += new System.EventHandler(this.ToolStripButtonLockPositions_Click);
             // 
@@ -223,7 +225,7 @@ namespace GenieClient.Mapper
             this._ToolStripButtonAllowDuplicates.Image = ((System.Drawing.Image)(resources.GetObject("_ToolStripButtonAllowDuplicates.Image")));
             this._ToolStripButtonAllowDuplicates.ImageTransparentColor = System.Drawing.Color.Magenta;
             this._ToolStripButtonAllowDuplicates.Name = "_ToolStripButtonAllowDuplicates";
-            this._ToolStripButtonAllowDuplicates.Size = new System.Drawing.Size(23, 22);
+            this._ToolStripButtonAllowDuplicates.Size = new System.Drawing.Size(34, 28);
             this._ToolStripButtonAllowDuplicates.Text = "Allow Duplicate";
             this._ToolStripButtonAllowDuplicates.ToolTipText = "Allow Duplicate Nodes";
             this._ToolStripButtonAllowDuplicates.Click += new System.EventHandler(this.ToolStripButtonAllowDuplicates_Click);
@@ -231,7 +233,7 @@ namespace GenieClient.Mapper
             // _ToolStripSeparator5
             // 
             this._ToolStripSeparator5.Name = "_ToolStripSeparator5";
-            this._ToolStripSeparator5.Size = new System.Drawing.Size(6, 25);
+            this._ToolStripSeparator5.Size = new System.Drawing.Size(6, 33);
             // 
             // _ToolStripButtonMoveNodes
             // 
@@ -240,7 +242,7 @@ namespace GenieClient.Mapper
             this._ToolStripButtonMoveNodes.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this._ToolStripButtonMoveNodes.ImageTransparentColor = System.Drawing.Color.Magenta;
             this._ToolStripButtonMoveNodes.Name = "_ToolStripButtonMoveNodes";
-            this._ToolStripButtonMoveNodes.Size = new System.Drawing.Size(23, 22);
+            this._ToolStripButtonMoveNodes.Size = new System.Drawing.Size(34, 28);
             this._ToolStripButtonMoveNodes.Text = "Move Nodes/Labels";
             this._ToolStripButtonMoveNodes.Click += new System.EventHandler(this.ToolStripButtonMoveNodes_Click);
             // 
@@ -251,14 +253,14 @@ namespace GenieClient.Mapper
             this._ToolStripButtonRemove.Image = ((System.Drawing.Image)(resources.GetObject("_ToolStripButtonRemove.Image")));
             this._ToolStripButtonRemove.ImageTransparentColor = System.Drawing.Color.Magenta;
             this._ToolStripButtonRemove.Name = "_ToolStripButtonRemove";
-            this._ToolStripButtonRemove.Size = new System.Drawing.Size(23, 22);
+            this._ToolStripButtonRemove.Size = new System.Drawing.Size(34, 28);
             this._ToolStripButtonRemove.Text = "Remove Selected Nodes/Labels";
             this._ToolStripButtonRemove.Click += new System.EventHandler(this.ToolStripButtonRemove_Click);
             // 
             // _ToolStripSeparator2
             // 
             this._ToolStripSeparator2.Name = "_ToolStripSeparator2";
-            this._ToolStripSeparator2.Size = new System.Drawing.Size(6, 25);
+            this._ToolStripSeparator2.Size = new System.Drawing.Size(6, 33);
             // 
             // _ToolStripButtonFixID
             // 
@@ -266,7 +268,7 @@ namespace GenieClient.Mapper
             this._ToolStripButtonFixID.Image = ((System.Drawing.Image)(resources.GetObject("_ToolStripButtonFixID.Image")));
             this._ToolStripButtonFixID.ImageTransparentColor = System.Drawing.Color.Magenta;
             this._ToolStripButtonFixID.Name = "_ToolStripButtonFixID";
-            this._ToolStripButtonFixID.Size = new System.Drawing.Size(23, 22);
+            this._ToolStripButtonFixID.Size = new System.Drawing.Size(34, 28);
             this._ToolStripButtonFixID.Text = "Reset Map IDs";
             this._ToolStripButtonFixID.ToolTipText = "Reset Map IDs";
             this._ToolStripButtonFixID.Click += new System.EventHandler(this.ToolStripButton1_Click);
@@ -281,7 +283,7 @@ namespace GenieClient.Mapper
             this._ToolStripButtonDock.Image = ((System.Drawing.Image)(resources.GetObject("_ToolStripButtonDock.Image")));
             this._ToolStripButtonDock.ImageTransparentColor = System.Drawing.Color.Magenta;
             this._ToolStripButtonDock.Name = "_ToolStripButtonDock";
-            this._ToolStripButtonDock.Size = new System.Drawing.Size(23, 22);
+            this._ToolStripButtonDock.Size = new System.Drawing.Size(34, 28);
             this._ToolStripButtonDock.Text = "Docked";
             this._ToolStripButtonDock.Click += new System.EventHandler(this.ToolStripButtonDock_Click);
             // 
@@ -289,7 +291,7 @@ namespace GenieClient.Mapper
             // 
             this._ToolStripSeparator7.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
             this._ToolStripSeparator7.Name = "_ToolStripSeparator7";
-            this._ToolStripSeparator7.Size = new System.Drawing.Size(6, 25);
+            this._ToolStripSeparator7.Size = new System.Drawing.Size(6, 33);
             // 
             // _ToolStripButtonZoomOut
             // 
@@ -299,7 +301,7 @@ namespace GenieClient.Mapper
             this._ToolStripButtonZoomOut.Image = ((System.Drawing.Image)(resources.GetObject("_ToolStripButtonZoomOut.Image")));
             this._ToolStripButtonZoomOut.ImageTransparentColor = System.Drawing.Color.Magenta;
             this._ToolStripButtonZoomOut.Name = "_ToolStripButtonZoomOut";
-            this._ToolStripButtonZoomOut.Size = new System.Drawing.Size(23, 22);
+            this._ToolStripButtonZoomOut.Size = new System.Drawing.Size(34, 28);
             this._ToolStripButtonZoomOut.Text = "Zoom Out";
             this._ToolStripButtonZoomOut.Click += new System.EventHandler(this.ToolStripButtonZoomOut_Click);
             // 
@@ -310,7 +312,7 @@ namespace GenieClient.Mapper
             this._ToolStripButtonZoomIn.Image = ((System.Drawing.Image)(resources.GetObject("_ToolStripButtonZoomIn.Image")));
             this._ToolStripButtonZoomIn.ImageTransparentColor = System.Drawing.Color.Magenta;
             this._ToolStripButtonZoomIn.Name = "_ToolStripButtonZoomIn";
-            this._ToolStripButtonZoomIn.Size = new System.Drawing.Size(23, 22);
+            this._ToolStripButtonZoomIn.Size = new System.Drawing.Size(34, 28);
             this._ToolStripButtonZoomIn.Text = "Zoom In";
             this._ToolStripButtonZoomIn.Click += new System.EventHandler(this.ToolStripButtonZoomIn_Click);
             // 
@@ -318,7 +320,7 @@ namespace GenieClient.Mapper
             // 
             this._ToolStripSeparator6.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
             this._ToolStripSeparator6.Name = "_ToolStripSeparator6";
-            this._ToolStripSeparator6.Size = new System.Drawing.Size(6, 25);
+            this._ToolStripSeparator6.Size = new System.Drawing.Size(6, 33);
             // 
             // _ToolStripButtonDown
             // 
@@ -327,7 +329,7 @@ namespace GenieClient.Mapper
             this._ToolStripButtonDown.Image = ((System.Drawing.Image)(resources.GetObject("_ToolStripButtonDown.Image")));
             this._ToolStripButtonDown.ImageTransparentColor = System.Drawing.Color.Magenta;
             this._ToolStripButtonDown.Name = "_ToolStripButtonDown";
-            this._ToolStripButtonDown.Size = new System.Drawing.Size(23, 22);
+            this._ToolStripButtonDown.Size = new System.Drawing.Size(34, 28);
             this._ToolStripButtonDown.Text = "Down";
             this._ToolStripButtonDown.Click += new System.EventHandler(this.ToolStripButtonDown_Click);
             // 
@@ -338,7 +340,7 @@ namespace GenieClient.Mapper
             this._ToolStripButtonUp.Image = ((System.Drawing.Image)(resources.GetObject("_ToolStripButtonUp.Image")));
             this._ToolStripButtonUp.ImageTransparentColor = System.Drawing.Color.Magenta;
             this._ToolStripButtonUp.Name = "_ToolStripButtonUp";
-            this._ToolStripButtonUp.Size = new System.Drawing.Size(23, 22);
+            this._ToolStripButtonUp.Size = new System.Drawing.Size(34, 28);
             this._ToolStripButtonUp.Text = "Up";
             this._ToolStripButtonUp.Click += new System.EventHandler(this.ToolStripButtonUp_Click);
             // 
@@ -346,7 +348,7 @@ namespace GenieClient.Mapper
             // 
             this._ToolStripLabelZ.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
             this._ToolStripLabelZ.Name = "_ToolStripLabelZ";
-            this._ToolStripLabelZ.Size = new System.Drawing.Size(46, 22);
+            this._ToolStripLabelZ.Size = new System.Drawing.Size(70, 28);
             this._ToolStripLabelZ.Text = "Level: 0";
             // 
             // _OpenFileDialog1
@@ -368,9 +370,10 @@ namespace GenieClient.Mapper
             this._PanelDetails.Controls.Add(this._PanelNodeDetails);
             this._PanelDetails.Controls.Add(this._PanelLabelDetails);
             this._PanelDetails.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this._PanelDetails.Location = new System.Drawing.Point(0, 413);
+            this._PanelDetails.Location = new System.Drawing.Point(0, 637);
+            this._PanelDetails.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this._PanelDetails.Name = "_PanelDetails";
-            this._PanelDetails.Size = new System.Drawing.Size(1299, 175);
+            this._PanelDetails.Size = new System.Drawing.Size(1948, 269);
             this._PanelDetails.TabIndex = 17;
             this._PanelDetails.Visible = false;
             // 
@@ -378,10 +381,11 @@ namespace GenieClient.Mapper
             // 
             this._PanelNodeDetails.Dock = System.Windows.Forms.DockStyle.Fill;
             this._PanelNodeDetails.Location = new System.Drawing.Point(0, 0);
-            this._PanelNodeDetails.MinimumSize = new System.Drawing.Size(0, 175);
+            this._PanelNodeDetails.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
+            this._PanelNodeDetails.MinimumSize = new System.Drawing.Size(0, 269);
             this._PanelNodeDetails.Name = "_PanelNodeDetails";
             this._PanelNodeDetails.Node = null;
-            this._PanelNodeDetails.Size = new System.Drawing.Size(1299, 175);
+            this._PanelNodeDetails.Size = new System.Drawing.Size(1948, 269);
             this._PanelNodeDetails.TabIndex = 0;
             this._PanelNodeDetails.NewNode += new GenieClient.NodeDetails.NewNodeEventHandler(this.PanelNodeDetails_NewNode);
             this._PanelNodeDetails.CopyNode += new GenieClient.NodeDetails.CopyNodeEventHandler(this.PanelNodeDetails_CopyNode);
@@ -396,9 +400,10 @@ namespace GenieClient.Mapper
             this._PanelLabelDetails.Dock = System.Windows.Forms.DockStyle.Fill;
             this._PanelLabelDetails.Label = null;
             this._PanelLabelDetails.Location = new System.Drawing.Point(0, 0);
-            this._PanelLabelDetails.MinimumSize = new System.Drawing.Size(0, 97);
+            this._PanelLabelDetails.Margin = new System.Windows.Forms.Padding(6, 8, 6, 8);
+            this._PanelLabelDetails.MinimumSize = new System.Drawing.Size(0, 149);
             this._PanelLabelDetails.Name = "_PanelLabelDetails";
-            this._PanelLabelDetails.Size = new System.Drawing.Size(1299, 175);
+            this._PanelLabelDetails.Size = new System.Drawing.Size(1948, 269);
             this._PanelLabelDetails.TabIndex = 1;
             this._PanelLabelDetails.NewLabel += new GenieClient.LabelDetails.NewLabelEventHandler(this.EventAddLabel);
             this._PanelLabelDetails.UpdateMap += new GenieClient.LabelDetails.UpdateMapEventHandler(this.PanelNodeDetails_UpdateMap);
@@ -407,11 +412,13 @@ namespace GenieClient.Mapper
             // 
             this._StatusStripMain.BackColor = System.Drawing.SystemColors.Control;
             this._StatusStripMain.GripStyle = System.Windows.Forms.ToolStripGripStyle.Visible;
+            this._StatusStripMain.ImageScalingSize = new System.Drawing.Size(24, 24);
             this._StatusStripMain.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this._ToolStripStatusText});
-            this._StatusStripMain.Location = new System.Drawing.Point(0, 588);
+            this._StatusStripMain.Location = new System.Drawing.Point(0, 906);
             this._StatusStripMain.Name = "_StatusStripMain";
-            this._StatusStripMain.Size = new System.Drawing.Size(1299, 24);
+            this._StatusStripMain.Padding = new System.Windows.Forms.Padding(2, 0, 21, 0);
+            this._StatusStripMain.Size = new System.Drawing.Size(1948, 36);
             this._StatusStripMain.TabIndex = 18;
             // 
             // _ToolStripStatusText
@@ -421,7 +428,7 @@ namespace GenieClient.Mapper
             | System.Windows.Forms.ToolStripStatusLabelBorderSides.Bottom)));
             this._ToolStripStatusText.BorderStyle = System.Windows.Forms.Border3DStyle.SunkenOuter;
             this._ToolStripStatusText.Name = "_ToolStripStatusText";
-            this._ToolStripStatusText.Size = new System.Drawing.Size(1284, 19);
+            this._ToolStripStatusText.Size = new System.Drawing.Size(1925, 29);
             this._ToolStripStatusText.Spring = true;
             this._ToolStripStatusText.Text = "Ready.";
             this._ToolStripStatusText.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -429,24 +436,26 @@ namespace GenieClient.Mapper
             // _PanelBase
             // 
             this._PanelBase.AutoScroll = true;
-            this._PanelBase.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this._PanelBase.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this._PanelBase.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this._PanelBase.Controls.Add(this._PanelMap);
             this._PanelBase.Dock = System.Windows.Forms.DockStyle.Fill;
-            this._PanelBase.Location = new System.Drawing.Point(0, 50);
+            this._PanelBase.Location = new System.Drawing.Point(0, 67);
+            this._PanelBase.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this._PanelBase.Name = "_PanelBase";
-            this._PanelBase.Size = new System.Drawing.Size(1299, 363);
+            this._PanelBase.Size = new System.Drawing.Size(1948, 570);
             this._PanelBase.TabIndex = 19;
             // 
             // _PanelMap
             // 
             this._PanelMap.AutoScroll = true;
-            this._PanelMap.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(2)))));
+            this._PanelMap.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this._PanelMap.Dock = System.Windows.Forms.DockStyle.Fill;
             this._PanelMap.DrawLines = false;
             this._PanelMap.Location = new System.Drawing.Point(0, 0);
+            this._PanelMap.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this._PanelMap.Name = "_PanelMap";
-            this._PanelMap.Size = new System.Drawing.Size(1295, 359);
+            this._PanelMap.Size = new System.Drawing.Size(1944, 566);
             this._PanelMap.TabIndex = 6;
             this._PanelMap.Paint += new System.Windows.Forms.PaintEventHandler(this.FlickerFreePanel1_Paint);
             this._PanelMap.MouseDown += new System.Windows.Forms.MouseEventHandler(this.FlickerFreePanel1_MouseDown);
@@ -457,12 +466,14 @@ namespace GenieClient.Mapper
             // _ToolStripMaps
             // 
             this._ToolStripMaps.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden;
+            this._ToolStripMaps.ImageScalingSize = new System.Drawing.Size(24, 24);
             this._ToolStripMaps.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this._ToolStripDropDownButtonMaps,
             this._ToolStripButtonReload});
-            this._ToolStripMaps.Location = new System.Drawing.Point(0, 25);
+            this._ToolStripMaps.Location = new System.Drawing.Point(0, 33);
             this._ToolStripMaps.Name = "_ToolStripMaps";
-            this._ToolStripMaps.Size = new System.Drawing.Size(1299, 25);
+            this._ToolStripMaps.Padding = new System.Windows.Forms.Padding(0, 0, 3, 0);
+            this._ToolStripMaps.Size = new System.Drawing.Size(1948, 34);
             this._ToolStripMaps.TabIndex = 20;
             this._ToolStripMaps.Text = "ToolStripMaps";
             // 
@@ -474,14 +485,14 @@ namespace GenieClient.Mapper
             this._ToolStripDropDownButtonMaps.Image = ((System.Drawing.Image)(resources.GetObject("_ToolStripDropDownButtonMaps.Image")));
             this._ToolStripDropDownButtonMaps.ImageTransparentColor = System.Drawing.Color.Magenta;
             this._ToolStripDropDownButtonMaps.Name = "_ToolStripDropDownButtonMaps";
-            this._ToolStripDropDownButtonMaps.Size = new System.Drawing.Size(89, 22);
+            this._ToolStripDropDownButtonMaps.Size = new System.Drawing.Size(133, 29);
             this._ToolStripDropDownButtonMaps.Text = "Untitled Map";
             this._ToolStripDropDownButtonMaps.ToolTipText = "Maps";
             // 
             // _TestToolStripMenuItem
             // 
             this._TestToolStripMenuItem.Name = "_TestToolStripMenuItem";
-            this._TestToolStripMenuItem.Size = new System.Drawing.Size(94, 22);
+            this._TestToolStripMenuItem.Size = new System.Drawing.Size(144, 34);
             this._TestToolStripMenuItem.Text = "Test";
             // 
             // _ToolStripButtonReload
@@ -490,15 +501,15 @@ namespace GenieClient.Mapper
             this._ToolStripButtonReload.Image = ((System.Drawing.Image)(resources.GetObject("_ToolStripButtonReload.Image")));
             this._ToolStripButtonReload.ImageTransparentColor = System.Drawing.Color.Magenta;
             this._ToolStripButtonReload.Name = "_ToolStripButtonReload";
-            this._ToolStripButtonReload.Size = new System.Drawing.Size(23, 22);
+            this._ToolStripButtonReload.Size = new System.Drawing.Size(34, 29);
             this._ToolStripButtonReload.Text = "Reload Map List";
             this._ToolStripButtonReload.Click += new System.EventHandler(this.ToolStripButtonReload_Click);
             // 
             // MapForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1299, 612);
+            this.ClientSize = new System.Drawing.Size(1948, 942);
             this.Controls.Add(this._PanelBase);
             this.Controls.Add(this._PanelDetails);
             this.Controls.Add(this._StatusStripMain);
@@ -507,6 +518,7 @@ namespace GenieClient.Mapper
             this.DoubleBuffered = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.KeyPreview = true;
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "MapForm";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
